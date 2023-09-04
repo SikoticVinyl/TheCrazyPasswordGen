@@ -10,14 +10,18 @@ function writePassword() {
 
 }
 
-var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-var lower = "abcdefghijklmnopqrstyvwxyz"
-var nums = "0123456789"
-var symb = "~`! @#$%^&*()_-+={[}]|\:;'<,>.?/"
-var plength = (8,128)
-var pass = ""
+function generatePassword() {
+  const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  const lower = "abcdefghijklmnopqrstyvwxyz"
+  const nums = "0123456789"
+  const symb = "!@#$%^&*()-_=+"
+  
+  let optPool = ""
 
-function generatePass() {
+  if (useUpperCase) optPool += upper;
+  if (useLowerCase) optPool += lower;
+  if (useNumbers) optPool += nums;
+  if (useSymbols) optPool += symb;
 }
 console.log(generatePass());
 
