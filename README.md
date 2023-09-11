@@ -20,13 +20,13 @@ I learned a lot about the differences between let and var, at first glance upon 
 ## Usage
 
 To use this app please first visit the page here: https://sikoticvinyl.github.io/TheCrazyPasswordGen/
-This will take you to my application that should look like this:
 
+Once you are on the main page you will see a big red button that says "Generate Password" and when you click on this button a prompt box should come up and begin to ask for input. Enter input requested and once finished the page will put the generated password into the middle of the box to be copied for ease of use.
 
-Provide instructions and examples for use. Include screenshots as needed.
+The screenshots below follow the instructions provided above:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+!["Password Generator Screen Shot."](/assets/images/WebPageScreen.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+!["Password generator screen with prompt"](/assets/images/Options.png)
+
+!["Password generator with output provided"](/assets/images/Generated.png)
