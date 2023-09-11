@@ -1,92 +1,32 @@
 # TheCrazyPasswordGen
-A password generator that gives you options
 
-Project Readme Info:
-## Your Task
+## Description
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+In short, this is simply a page that generates a random password based on criteria options available to the user. Our main criteria options availible include the following: 
+- Capitols
+- Lower Case
+- Numbers
+- Symbols
+- Option for a lenght between 8 and 128 characters.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+This project was my first working in depth with JavaScript. All of the HTML and CSS was provided prior missing the JavaScript and it was fun to research the various ways to try and get what I wanted to happen done and playing with various attempts to find what clicked and worked for me.
 
-## User Story
+Having gone through and now having the code working and generating password based on the criteria and options with a user interface, I have a better understanding of how functions work and interact with eachother and how many different ways they can be used.
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+Parts of this were particularly challenging for me, specifically getting the commands to prompt for input from the user and then take that input and apply it to create the output based on the input. There were quiet a few different ways that I could find to do this in my research and after a bit of trial and error finally it clicked the best way to use what I was researching to get my outcome!
 
-## Acceptance Criteria
+I learned a lot about the differences between let and var, at first glance upon seeing them in research materials and thinking that they were basically interchangeable. I also learned a lot about de-bugging this go around as there were many times where I thought I had it done and ready to go only to see errors popping up in the chrome dev tools. It is really helpful that they indicate where the initial issue is so I could use the dev tools to pinpoint what was not working and try to figure out ways to get it working.
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
-## Grading Requirements
+## Usage
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+To use this app please first visit the page here: https://sikoticvinyl.github.io/TheCrazyPasswordGen/
+This will take you to my application that should look like this:
 
-This Challenge is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
+Provide instructions and examples for use. Include screenshots as needed.
 
-* Satisfies all of the preceding acceptance criteria.
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
